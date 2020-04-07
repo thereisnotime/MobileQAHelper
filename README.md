@@ -58,6 +58,8 @@ Add local file database for previous connected devices.
 Check if adb is installed and running.
 Add stdout/err capture of each new window handle.
 Add better process event handling.
+Add thumbnail preview of already opened sessions.
+Add ability to clone window for read-only purposes.
 
 ### Uninstall ###
 Delete the executable.
