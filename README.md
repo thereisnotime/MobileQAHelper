@@ -57,6 +57,7 @@ Add Wi-Fi ability and arp listener for new devices.
 Add local file database for previous connected devices.
 Check if adb is installed and running.
 Add stdout/err capture of each new window handle.
+Add better process event handling.
 
 ### Uninstall ###
 Delete the executable.
