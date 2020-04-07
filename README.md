@@ -29,6 +29,11 @@ LibUsbDotNet.dll
 MaterialSkin.dll
 SharpAdbclient.dll
 ````
+Required software:
+```sh
+adb + drivers
+scrcpy
+````
 
 ### Compatability ###
 The should work on most Windows versions and has been tested on the following:
@@ -39,6 +44,9 @@ Windows Server 2019
 Windows Server 2016
 ``` 
 
+### Notes ###
+Most of the functions depend on finding a window by its caption (device model + device serial number). If you change the session window title hell will rain down upon you.
+
 ### Todo ###
 Add ability to send keystrokes to SDL handles (for shortcut buttons).
 Move logging to separate thread.
@@ -48,6 +56,7 @@ Add a check if generic (adb)Android USB drivers are installed.
 Add Wi-Fi ability and arp listener for new devices.
 Add local file database for previous connected devices.
 Check if adb is installed and running.
+Add stdout/err capture of each new window handle.
 
 ### Uninstall ###
 Delete the executable.
