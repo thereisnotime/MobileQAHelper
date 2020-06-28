@@ -3,6 +3,8 @@
 ### Description ###
 Simple GUI for scrcpy to help QA engineers control multiple different mobile devices from their Windows.
 
+* NOTICE: This is still a WIP. Few bugs need to be fixed before I upload the code.
+
 ### Features ###
 - Open interactive session to every connected Android device 
 - View physical screen touches on the computer session of the device
@@ -13,7 +15,7 @@ Simple GUI for scrcpy to help QA engineers control multiple different mobile dev
 - Open a session with FPS counter
 
 ### Screenshots ###
-Todo
+![Screenshot1](/Screenshots/Screenshot_1.jpg?raw=true "Main WIP window.")
 
 ### Installation ###
 No installation is needed, download the release or build it yourself from source.
